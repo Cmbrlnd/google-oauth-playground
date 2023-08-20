@@ -7,8 +7,6 @@ A simple application utilizing the npm google-auth-library to create/login a use
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -71,3 +69,17 @@ Console logging on the client has been used to show success and failure, please 
 7. Visit the local http endpoint shown in the client console.
 
 **Happy testing!** :smile:
+
+## Usage
+
+- Login to application using a Google test account (this will need to be set in your registered application in Google Cloud Console)
+- Click on the Check JWT Token button and watch the client console, this button utilizes a middleware function to check that the user is authenticated.
+    - If JWT is verified successfully you will see a _successMsg_ in console.
+    - If JWT is not verified successfully you will see an _error_ in console.
+    - You can force an error by modifying the _accessToken_ stored in _localStorage_, you can do this in the _Application_ tab.
+- Click on the _Refresh Google access token_ button and watch the client console, this button refreshes the Google access token
+    - If the Google access token is verified successfully you will see a _success_ message in the console.
+    - If the Google access token is not verified successfully you will see an _error_ in the console.
+    - You can force an error on the refresh button in 2 ways.
+        1. Tamper with the _accessToken_ stored in _localStorage_.
+        2. Visit [Google Account](https://myaccount.google.com/) and login with the test account your are using to login to the application, navigate to the Third-party apps & service section. Select your registered application used in this application & delete the access to the application.
