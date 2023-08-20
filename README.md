@@ -46,7 +46,7 @@ Console logging on the client has been used to show success and failure, please 
     npm i
     ```
 
-4. Setup environment variables for server:
+4. Setup environment variables for server:  
     a. Create _.env_ file in the server directory.  
     b. Copy the data from _.env-sample_ and paste into the _.env_ file.  
     c. Replace the placeholder values with your values.  
