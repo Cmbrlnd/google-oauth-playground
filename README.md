@@ -8,7 +8,6 @@ A simple application utilizing the npm google-auth-library to create/login a use
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -83,3 +82,43 @@ Console logging on the client has been used to show success and failure, please 
     - You can force an error on the refresh button in 2 ways.
         1. Tamper with the _accessToken_ stored in _localStorage_.
         2. Visit [Google Account](https://myaccount.google.com/) and login with the test account your are using to login to the application, navigate to the Third-party apps and service section. Select your registered application used in this application and delete the access to the application.
+
+## License
+
+This project is licensed under the MIT License.
+
+MIT License
+-----------
+
+Copyright (c) [2023] [Jesse Cumberland]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Acknowledgements
+
+I would like to express my gratitude to the following:
+
+- **Google OAuth 2.0 API:** We would like to thank Google for providing the powerful authentication and authorization services that enable our application's seamless integration with Google services.
+
+- **google-auth-library:** We acknowledge the creators and maintainers of the google-auth-library, a crucial component of our project. This package simplified user login, retrieval of access tokens and refreshing of those tokens.
+
+Your contributions to the open-source community are greatly appreciated.
+
+[Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2)
+[google-auth-library](https://www.npmjs.com/package/google-auth-library)
