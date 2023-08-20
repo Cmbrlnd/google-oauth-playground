@@ -1,6 +1,6 @@
 # Google OAuth 2.0 Playground
 
-A simple application utilizing the npm google-auth-library to create/login a user & refresh access tokens.
+A simple application utilizing the npm google-auth-library to create/login a user and refresh access tokens.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ A simple application utilizing the npm google-auth-library to create/login a use
 ## Introduction
 
 The main purpose of this project is to leverage the Google OAuth 2.0 system to create, refresh and verify tokens.
-These tokens are fetched from the Google servers via API calls & then encapsulated in our own JWT which is then stored on the client.
+These tokens are fetched from the Google servers via API calls and then encapsulated in our own JWT which is then stored on the client.
 Simple UI functionality has been added to test users access and refresh tokens.
 Console logging on the client has been used to show success and failure, please note this in case of using this package in production env.
 
@@ -52,7 +52,7 @@ Console logging on the client has been used to show success and failure, please 
     b. Copy the data from _.env-sample_ and paste into the _.env_ file.
     c. Replace the placeholder values with your values.
 
-    _Note:_ You will need to register an application @ [Google Cloud Console](https://console.cloud.google.com/) to retrieve your CLIENT_ID & CLIENT_SECRET.
+    _Note:_ You will need to register an application @ [Google Cloud Console](https://console.cloud.google.com/) to retrieve your CLIENT_ID and CLIENT_SECRET.
 
 5. Run server
     ```bash
@@ -72,7 +72,7 @@ Console logging on the client has been used to show success and failure, please 
 
 ## Usage
 
-- Login to application using a Google test account (this will need to be set in your registered application in Google Cloud Console)
+- Login to application using a Google test account (this will need to be set in your registered application in [Google Cloud Console](https://console.cloud.google.com/))
 - Click on the Check JWT Token button and watch the client console, this button utilizes a middleware function to check that the user is authenticated.
     - If JWT is verified successfully you will see a _successMsg_ in console.
     - If JWT is not verified successfully you will see an _error_ in console.
@@ -82,4 +82,4 @@ Console logging on the client has been used to show success and failure, please 
     - If the Google access token is not verified successfully you will see an _error_ in the console.
     - You can force an error on the refresh button in 2 ways.
         1. Tamper with the _accessToken_ stored in _localStorage_.
-        2. Visit [Google Account](https://myaccount.google.com/) and login with the test account your are using to login to the application, navigate to the Third-party apps & service section. Select your registered application used in this application & delete the access to the application.
+        2. Visit [Google Account](https://myaccount.google.com/) and login with the test account your are using to login to the application, navigate to the Third-party apps and service section. Select your registered application used in this application and delete the access to the application.
