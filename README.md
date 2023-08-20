@@ -32,40 +32,42 @@ Console logging on the client has been used to show success and failure, please 
 
 ## Getting Started
 
-```bash
-git clone https://github.com/Cmbrlnd/google-oauth-playground.git
-```
+1. Clone Github repository:
+  ```bash
+  git clone https://github.com/Cmbrlnd/google-oauth-playground.git
+  ```
 
-Install server dependencies
-```bash
-cd server
-npm i
-```
+2. Install server dependencies
+  ```bash
+  cd server
+  npm i
+  ```
 
-Install client dependencies
-```bash
-cd client
-npm i
-```
+3. Install client dependencies
+  ```bash
+  cd client
+  npm i
+  ```
 
-Create .env file under in server directory.
-Copy the data from .env-sample and paste into the .env file.
-Replace the placeholder values with your values.
+4. Setup environment variables for server:
+  a. Create _.env_ file in the server directory.
+  b. Copy the data from _.env-sample_ and paste into the _.env_ file.
+  c. Replace the placeholder values with your values.
 
-You will need to register an application @ https://console.cloud.google.com/ to retrieve your CLIENT_ID & CLIENT_SECRET
+  _Note:_ You will need to register an application @ [Google Cloud Console](https://console.cloud.google.com/) to retrieve your CLIENT_ID & CLIENT_SECRET.
 
-Run server
-```bash
-cd server
-npm run dev
-```
+5. Run server
+  ```bash
+  cd server
+  npm run dev
+  ```
 
-Run client
-```bash
-cd client
-npm run dev
-```
+6. Run client
+  ```bash
+  cd client
+  npm run dev
+  ```
 
-Visit the local http endpoint shown in the client console.
+7. Visit the local http endpoint shown in the client console.
 
-Happy testing!
+**Happy testing!** :smile:
