@@ -25,12 +25,12 @@ Console logging on the client has been used to show success and failure, please 
 
 List the key features of your project. This section should provide a quick summary of what users can expect from your project.
 
-- Login with Google: Login to the application using a Google account, please note that this account will need to be added as a test account.
-- Check JWT token: Fetches the _accessToken_ from localStorage and sends to API to be verified. Client side console logs will indicate success or failure.
-- Refresh Google access token: Fetches the 'accessToken' from localStorage and sends to API to be verified. Once verified and decoded, the Google refresh token is extracted from the payload to then be sent to Google API for new tokens. If refresh token in valid and access from user has not been revoked, this API will receive the refreshed tokens. These tokens are then encapsulated in a JWT again and sent to front end to replace existing client side localStorage JWT. If this process fails, user will be logged out and all localStorage cleared.
-- Logout: Clear all localStorage and UI state.
-- Logged in: Show the state of React useState hook which is tracks the status of users authentication.
-- Welcome, user!: Show the given name extracted from Google API call.
+- **Login with Google:** Login to the application using a Google account, please note that this account will need to be added as a test account.
+- **Check JWT token:** Fetches the _accessToken_ from localStorage and sends to API to be verified. Client side console logs will indicate success or failure.
+- **Refresh Google access token:** Fetches the 'accessToken' from localStorage and sends to API to be verified. Once verified and decoded, the Google refresh token is extracted from the payload to then be sent to Google API for new tokens. If refresh token in valid and access from user has not been revoked, this API will receive the refreshed tokens. These tokens are then encapsulated in a JWT again and sent to front end to replace existing client side localStorage JWT. If this process fails, user will be logged out and all localStorage cleared.
+- **Logout:** Clear all localStorage and UI state.
+- **Logged in:** Show the state of React useState hook which is tracks the status of users authentication.
+- **Welcome, user!:** Show the given name extracted from Google API call.
 
 ## Getting Started
 
