@@ -121,4 +121,5 @@ I would like to express my gratitude to the following:
 Your contributions to the open-source community are greatly appreciated.
 
 [Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2)
+
 [google-auth-library](https://www.npmjs.com/package/google-auth-library)
